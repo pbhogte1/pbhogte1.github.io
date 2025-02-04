@@ -6,6 +6,27 @@ body {
     color: #333;
 }
 
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.media {
+    margin-top: 20px;
+}
+
+img, video {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -45,8 +66,12 @@ section {
     border-radius: 8px;
 }
 
-h2 {
+h1, h2 {
     color: #4CAF50;
+}
+
+p {
+    color: #555;
 }
 
 footer {
